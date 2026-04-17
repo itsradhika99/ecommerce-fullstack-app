@@ -1,0 +1,33 @@
+npm i cors dotenv express jsonwebtoken mongoose multer nodemon razorpay stripe validator cloudinary bcrypt
+
+What each package is used for
+🧠 Core backend
+express
+→ Creates your backend server (APIs, routes)
+dotenv
+→ Loads secrets (API keys, DB URL) from .env
+cors
+→ Allows frontend (React) to talk to backend
+Authentication
+jsonwebtoken
+→ Creates login tokens (used for authentication)
+bcrypt
+→ Encrypts passwords before saving to DB
+validator
+→ Validates email, password, etc.
+ Database
+mongoose
+→ Connects Node.js to MongoDB
+ File Upload
+multer
+→ Upload images/files from frontend
+cloudinary
+→ Store uploaded images in cloud
+ Payments
+Razorpay
+→ Accept payments (India)
+Stripe
+→ Accept international payments
+ Development
+nodemon
+→ Automatically restarts server on code changes

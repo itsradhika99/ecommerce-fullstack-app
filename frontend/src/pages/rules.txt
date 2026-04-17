@@ -1,0 +1,12 @@
+If file has:
+export default Something
+
+👉 Import like:
+
+import Something from '...'
+If file has:
+export const Something
+
+👉 Import like:
+
+import { Something } from '...'
